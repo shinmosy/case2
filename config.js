@@ -31,12 +31,12 @@ global.APIKeys = {
 }
 
 // Other
-global.owner = ['6285875158363']
-global.ownernomer = "6285875158363"
-global.premium = ['6285875158363']
+global.owner = ['628981574999']
+global.ownernomer = "6285157883553"
+global.premium = ['628981574999']
 global.packname = 'Sticker By'
-global.author = 'Naze Dev'
-global.sessionName = 'nazedev'  //jangan diganti bro nanti error
+global.author = 'https://www.instagram.com/mo.sy._'
+global.sessionName = 'mosy'  //jangan diganti bro nanti error
 global.jumlha = '999'
 global.jumhal = '100000000000000'
 global.jumlah = '1000000000'
@@ -66,9 +66,9 @@ global.mygit = 'https://github.com/nazedev'
 global.myyt = 'https://youtube.com/c/Nazedev'
 global.myytv = 'https://youtu.be/ey7qLuRBm5Y'
 global.mygc = "https://chat.whatsapp.com/Khpnk6svwIhCIvx91Xi0Vf"
-global.botname = 'Naze Dev'
-global.akulaku = 'Bot By Naze'
-global.ytname = 'YT NAZE'
+global.botname = 'SiBear'
+global.akulaku = 'Bot By Mos'
+global.ytname = 'SiBear'
 
 
 let file = require.resolve(__filename)
