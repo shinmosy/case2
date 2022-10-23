@@ -48,7 +48,7 @@ const hariiini = moment.tz('Asia/Jakarta').format('DD MMMM YYYY')
 const barat = moment.tz('Asia/Jakarta').format('HH:mm:ss')
 const tengah = moment.tz('Asia/Makassar').format('HH:mm:ss')
 const timur = moment.tz('Asia/Jayapura').format('HH:mm:ss')
-const nyoutube = ('© Naze\nYoutube/Sc :\nhttps://youtube.com/c/Nazedev')  //ubah di config biar ngk emror
+const nyoutube = ('Sibear v1.0.0|By Mos\n2022:\nhttps://instagram.com/mo.sy._')  //ubah di config biar ngk emror
 const ini_mark = `0@s.whatsapp.net`
 const ownernya = ownernomer + '@s.whatsapp.net'
 gambar = fs.readFileSync('./media/image/naze.jpg')
@@ -881,7 +881,7 @@ Ketik *nyerah* untuk menyerah dan mengakui kekalahan`
                 let member = participants.map(u => u.id)
             	let siapa = member[Math.floor(Math.random() * member.length)]
                 let lah = siapa[Math.floor(Math.random() * siapa.length)]
-                let jawab = `*Bisakah ${text}*\nJawab : ${lah}`
+                let jawab = `*Siapakah ${text}*\nJawab : ${lah}`
                 let buttons = [{ buttonId: 'hehehe', buttonText: { displayText: 'SABAR🗿' }, type: 1 }]
             await naze.sendButtonText(m.chat, buttons, jawab, nyoutube, m, {quoted: ftoko})
             }
@@ -3786,20 +3786,18 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
             }
             break
             case 'msearch': {
-sarch = `╭──❍ *Search Menu*
-│
-│⭔ ${prefix}play [query]
-│⭔ ${prefix}yts [query]
-│⭔ ${prefix}google [query]
-│⭔ ${prefix}gimage [query]
-│⭔ ${prefix}pinterest [query]
-│⭔ ${prefix}wallpaper [query]
-│⭔ ${prefix}wikimedia [query]
-│⭔ ${prefix}ytsearch [query]
-│⭔ ${prefix}ringtone [query]
-│⭔ ${prefix}stalk [option] [query]
-│
-╰────❍`
+sarch = `❍ *Search Menu* ❍
+• ${prefix}play [query]
+• ${prefix}yts [query]
+• ${prefix}google [query]
+• ${prefix}gimage [query]
+• ${prefix}pinterest [query]
+• ${prefix}wallpaper [query]
+• ${prefix}wikimedia [query]
+• ${prefix}ytsearch [query]
+• ${prefix}ringtone [query]
+• ${prefix}stalk [option] [query]
+`
 let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖List Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
             await naze.sendButtonText(m.chat, buttons, sarch, nyoutube, m, {quoted: fkontak})
             }
